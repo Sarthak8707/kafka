@@ -29,7 +29,7 @@ async function run() {
   await producer.send({
     topic: "test-topic",
     messages: [
-      { value: "Hello from Kafka latest!!!" }
+      { value: "this will show in both consumer groups" }
     ],
   });
 
