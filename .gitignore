@@ -7,4 +7,4 @@ node_modules/
 .env.production
 .env.test
 
-src/ca.pem
+src/pubSub/ca.pem
